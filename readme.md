@@ -1,10 +1,10 @@
-# Obsidian Chrome Clipper
+# Obsidian Clipper
 
 ## Screencast
 
 ![Screencast](docs/demo.gif)
 
-This is an unofficial Chrome Extension to quickly clip a selection on a webpage to Obsidian.
+This is an unofficial Browser Extension to quickly clip a selection on a webpage to Obsidian.
 
 ## Installing (Chrome)
 
@@ -80,8 +80,3 @@ Since Chrome allows you to set a custom shortcut to activate an extenion it shou
 
 This clipper is made possible with a work-around, since Chrome Extensions are forbidden to open custom url-schemes directly. The way around this issue is a custom html page that is hosted on Github-pages and also included in the repository: `docs/clip.html`. This little file contains javascript that pulls the data like vault & note out of the url params. With this data, it reconstructs the obsidian url and opens the right note!
 
-## Support
-
-Want to support me? You can do so via Ko-Fi: 
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R62KRKX)
